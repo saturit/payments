@@ -1,23 +1,17 @@
 {
-    "name": "tomaj/php-payments",
+    "name": "saturit/payments",
     "description": "PHP ePayment library",
     "license": "MIT",
-    "keywords": ["payment","tatrapay","cardpay","webpay","paypal","sporopay","eplatba"],
+    "keywords": ["payment","tatrapay","cardpay","webpay","sporopay","eplatba"],
     "authors": [
         {
             "name": "Tomas Majer",
-            "email": "tomasmajer@gmail.com",
-            "homepage": "http://www.tomaj.sk/"
-        },
-        {
-            "name": "MONOGRAM Technologies",
-            "email": "info@monogram.sk"
+            "email": "tomasmajer@gmail.com"
         }
     ],
     "minimum-stability": "dev",
     "require": {
-        "php": ">=5.3.0",
-	"paypal/merchant-sdk-php":"3.*"
+        "php": ">=5.3.0"
     },
     "autoload": {
         "classmap": [ 
